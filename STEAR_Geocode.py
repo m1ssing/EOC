@@ -67,10 +67,9 @@ for key, value in dict.items():
     sd_fs_name = "{}".format(key)
     print(sd_fs_name)
     portal = "https://gis.pearlandtx.gov/arcgis"
-    user = "portaladmin"
-    password = "Horizon81"
-    stuff = arcpy.GetActivePortalURL()
-    print(stuff)
+    user = ""
+    password = ""
+    
 
 
     shrGroups = "4fa8cb0fb0374823899e58342bc5d6a5"
